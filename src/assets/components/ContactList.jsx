@@ -4,7 +4,7 @@ const ContactList = ({ contacts, onDelete, onEdit }) => {
   return (
     <div className="mt-6">
       {contacts.length === 0 ? (
-        <p className="text-gray-500">No contacts found.</p>
+        <p className="text-gray-400">No contacts found.</p>
       ) : (
         contacts.map((contact, index) => (
           <div key={index} className="border rounded p-4 mb-2 shadow-sm">

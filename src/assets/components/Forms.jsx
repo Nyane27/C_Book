@@ -9,6 +9,7 @@ const Forms = ({ onAdd, contactToEdit }) => {
     phone: ''
   });
 
+   
   useEffect(() => {
     if (contactToEdit) {
       setContact(contactToEdit);
